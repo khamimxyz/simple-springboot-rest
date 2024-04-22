@@ -11,7 +11,7 @@ public class SimpleController {
     @GetMapping("/hello")
     public String hello() {
 
-        return "Hello, Spring Boot jenkins";
+        return "Hello, Spring Boot";
     }
 
     @GetMapping("/hi")
