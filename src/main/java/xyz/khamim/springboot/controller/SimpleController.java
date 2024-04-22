@@ -13,4 +13,10 @@ public class SimpleController {
 
         return "Hello, Spring Boot";
     }
+
+    @GetMapping("/hi")
+    public String hi() {
+
+        return "Hi, Spring Boot";
+    }
 }
